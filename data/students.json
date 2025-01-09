@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "fName": "Jane",
+        "lName": "Smith",
+        "isUndergrad": false
+    },
+    {
+        "id": 2,
+        "fName": "John",
+        "lName": "Doe",
+        "isUndergrad": true
+    },
+    {
+        "id": 3,
+        "fName": "Bruce",
+        "lName": "Wayne",
+        "isUndergrad": false
+    }
+]

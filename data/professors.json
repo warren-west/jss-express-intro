@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "fName": "Warren",
+        "lName": "West",
+        "hasPhD": false
+    },
+    {
+        "id":2,
+        "fName": "Nicholas",
+        "lName": "Lennox",
+        "hasPhD": false
+    },
+    {
+        "id":3,
+        "fName": "Dean",
+        "lName": "von Schoultz",
+        "hasPhD": true
+    }
+]
