@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile | <%= currentUser.fName %>
+            <%= currentUser.lName %>
+    </title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <h1>User Profile</h1>
+    <hr>
+    <h3>Username:</h3>
+    <p>
+        <%= currentUser.username %>
+    </p>
+    <hr>
+    <h3>Full name:</h3>
+    <p>
+        <%= currentUser.fName %>
+            <%= currentUser.lName %>
+    </p>
+    <hr>
+    <h3>Email:</h3>
+    <p>
+        <%= currentUser.email %>
+    </p>
+    <hr>
+    <h3>Age:</h3>
+    <p>
+        <%= currentUser.age %>
+    </p>
+    <hr>
+    <!-- status of isMarried -->
+
+    <% if (currentUser.isMarried) { %>
+        <h3>User is married 💍</h3>
+    <% } else { %>
+        <h3>User is not married 🐕‍🦺</h3>
+    <% } %>
+</body>
+
+</html>
